@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section
+{
+    display: block;
+    padding: 8px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 25%;
+    background-color: beige;
+    max-width: 90%;
+    margin: 25px;
+}
+
+img
+{
+ width: 0%;
+}
+
+h1{
+    text-align: center;
+}
+h2
+{
+    font-size: 2.0em;
+}
+h3{
+    color: darkslategray;
+}
+
+@media only screen and (min-width: 600px) {
+    #characters-list
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    img
+    {
+        width: 30%;
+        height: 60%;
+        display: block;
+        align-items: center;
+    }
+}
